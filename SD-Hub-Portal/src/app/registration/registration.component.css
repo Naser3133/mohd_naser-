@@ -3,11 +3,12 @@
 body{  
   font-family: Calibri, Helvetica, sans-serif;  
   background-color: pink;  
+  
 }  
 .container {  
     padding: 50px;  
-  background-color: rgb(156, 33, 33);  
-  color:white;
+  background-color: rgb(51, 156, 204);  
+  color:rgb(10, 10, 10);
 }  
   
 input[type=text], input[type=password], textarea {  
@@ -31,7 +32,7 @@ hr {
 }  
 .registerbtn {  
   background-color: #4CAF50;  
-  color: white;  
+  color:white;  
   padding: 20px;  
   margin: 8px 0;  
   border: none;  
@@ -39,6 +40,7 @@ hr {
   border-radius: 5px;  
    
   opacity: 0.9;  
+  font-size: larger;
 }  
 .registerbtn:hover {  
   opacity: 1;  
